@@ -35,7 +35,7 @@
   import {getHomeMutidata, getHomeGoods} from '../../network/home.js'
   import {debounce} from '../../common/utils.js'
   import {BackTop} from '../../common/mixin.js'
-  
+
   export default{
     name: 'Home',
     mixins:[BackTop],
@@ -164,7 +164,7 @@
       background-color: var(--color-tint);
       color: #fff;
     }
-   .content{
+  .content{
      position: absolute;
      top: 44px;
      bottom: 49px;
