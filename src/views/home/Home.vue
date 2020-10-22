@@ -6,7 +6,6 @@
       <div slot="right"></div>
     </navbar>
     <tab-control ref="tabControl1" class="tab-control" :titles="['流行','新款','精选']" @tabClick="tabClick" v-show="isTabFixed"></tab-control>
-
     <scroll class="content" ref="scroll" @scroll="contentScroll" @initMore="initMore" :probe-type=3 :pullUpLoad="true">
       <!-- <Cswiper :banners=banners></Cswiper> -->
       <home-swiper :banners="banners" @swiperImgLoad="swiperImgLoad"></home-swiper>
